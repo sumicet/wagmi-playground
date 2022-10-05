@@ -1,5 +1,5 @@
 import { Button, Center, HStack } from '@chakra-ui/react';
-import { chain, useConnect, useNetwork, useSwitchNetwork } from 'wagmi';
+import { chain, useConnect } from 'wagmi';
 
 function App() {
     const { connect, connectors } = useConnect();
